@@ -7,8 +7,7 @@ public class Persist {
 
     public static void main(String[] args) {
 
-        int sum2 = 0;
-        System.out.println(persistence(483946));
+               System.out.println(persistence(483946));
 
     }
 
@@ -20,7 +19,6 @@ public class Persist {
             char[] charArray = numberToString.toCharArray();
             long sum = IntStream.range(0, charArray.length)
                     .mapToLong(i -> Character.digit(charArray[i],10))
-//                    .filter(value -> value != 0)
                     .reduce(1, (a, b) -> a * b);
             n = sum;
             counter++;

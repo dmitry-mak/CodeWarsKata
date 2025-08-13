@@ -7,10 +7,10 @@ public class Xbonacci {
 
     public static void main(String[] args) {
 
-        Xbonacci xbonacci = new Xbonacci();
+//        Xbonacci xbonacci = new Xbonacci();
 
-        double[] s = {0, 1, 1};
-        int n = 10;
+//        double[] s = {0, 1, 1};
+//        int n = 10;
 
 //        xbonacci.tribonacci(s, n);
 

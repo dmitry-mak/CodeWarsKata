@@ -2,7 +2,6 @@ package kyu6.findOddInt;
 
 import java.util.HashMap;
 import java.util.Map;
-import static java.util.Arrays.stream;
 
 public class FindOdd {
     public static int findIt(int[] a) {
